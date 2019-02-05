@@ -1,5 +1,5 @@
 def is_tachycardic(arg_string):
-    if 'tachychardic' in arg_string.lower():
+    if 'tachycardic' in arg_string.lower():
        return True
     else:
        return False
