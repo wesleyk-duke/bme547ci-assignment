@@ -1,8 +1,9 @@
 def is_tachycardic(arg_string):
     if 'tachycardic' in arg_string.lower():
-       return True
+        return True
     else:
-       return False
+        return False
+
 
 def code_execute():
     prompt = input('Insert string: ')
@@ -12,4 +13,3 @@ def code_execute():
 
 if __name__ == "__name__":
     code_execute()
-
