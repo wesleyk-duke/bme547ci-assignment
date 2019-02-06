@@ -1,9 +1,10 @@
 def is_tachycardic(arg_string):
     if 'tachycardic' in arg_string.lower():
         return True
-    elif 'tchycardic' in arg_string.lower() or 'tahycardic' in arg_string.lower() or 'tacycardic' in arg_string.lower()\
-            or 'tachyardic' in arg_string.lower() or 'tachycrdic' in arg_string.lower() or 'tachycadic' in \
-            arg_string.lower() or \
+    elif 'tchycardic' in arg_string.lower() or 'tahycardic' in arg_string.lower()\
+            or 'tacycardic' in arg_string.lower()\
+            or 'tachyardic' in arg_string.lower() or 'tachycrdic' in arg_string.lower() \
+            or 'tachycadic' in arg_string.lower() or \
             'tachycard1c' in arg_string.lower() or 'tachycardc' in arg_string.lower():
         return True  # yeahhh this is not how it should be done but don't have an external library
     else:
